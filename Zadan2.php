@@ -19,5 +19,5 @@ $a = isset($argv[1]) ? (float)$argv[1] : 0;
 $b = isset($argv[2]) ? (float)$argv[2] : 0;
 $c = isset($argv[3]) ? (float)$argv[3] : 0;
 
-$result = Treygol($a, $b, $с);
+$result = Treygol($a, $b, $c);
 echo $result . "\n";
