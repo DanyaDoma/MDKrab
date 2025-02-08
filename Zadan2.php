@@ -15,9 +15,12 @@ function Treygol(float $a, float $b, float $c): string
         return "Разносторонний треугольник";
     }
 }
-$a = isset($argv[1]) ? (float)$argv[1] : 0;
-$b = isset($argv[2]) ? (float)$argv[2] : 0;
-$c = isset($argv[3]) ? (float)$argv[3] : 0;
+echo "Введите длину стороны a:";
+$a = (float)fgets(STDIN);
+echo "Введите длину стороны b:";
+$b = (float)fgets(STDIN);
+echo "Введите длину стороны c:";
+$c = (float)fgets(STDIN);
 
 $result = Treygol($a, $b, $c);
 echo $result . "\n";
