@@ -3,11 +3,11 @@ function Progression($a, $b, $c) {
 	return ($b - $a) == ($c - $b);
 }
 echo "Введите первое число:";
-$a = (float)fgets;
+$a = (float)fgets(STDIN);
 echo "Введите второе число:";
-$b = (float)fgets;
+$b = (float)fgets(STDIN);
 echo "Введите третье число:";
-$c=(float)fgets;
+$c=(float)fgets(STDIN);
 
 if Progression($a $b, $c);
 {
