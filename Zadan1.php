@@ -9,7 +9,7 @@ $b = (float)fgets(STDIN);
 echo "Введите третье число:";
 $c=(float)fgets(STDIN);
 
-if Progression($a $b, $c);
+if (Progression($a $b, $c));
 {
 	echo "Числа {$a}, {$b}, {$c} являются  последовательными челенами арифметической прогрессии. \n"
 } else {
